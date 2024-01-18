@@ -1,0 +1,28 @@
+
+
+.body {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+.section1 {
+  height: 100vh;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+h2{
+  color: white;
+  font-size: 1rem;
+}
+
+.section2{
+  padding: 5%;
+  margin: 0 auto;
+}
+.visor {
+  width: 100%;
+  height: 100%;
+}
